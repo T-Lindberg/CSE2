@@ -14,7 +14,7 @@ public class WelcomeClass{
     System.out.println("-----------");
     System.out.println("^ ^ ^ ^ ^ ^");
     System.out.println("/\\/\\/\\/\\/\\/\\");
-    System.out.println("|-T-D-L-2-1-6|");
+    System.out.println("|-T-D-L-2-1-6-|");
     System.out.println("\\/\\/\\/\\/\\/\\/");
     System.out.println("v v v v v v ");
     System.out.println("My name is Thomas Lindberg and I am a junior ISE major. I am excited to learn programming!");
