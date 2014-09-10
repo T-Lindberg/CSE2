@@ -1,6 +1,8 @@
 //Thomas Lindberg
 //hw02
 //Arithmetic
+//9/09/14
+//CSE2
 
 //define a class
 class Arithmetic{
