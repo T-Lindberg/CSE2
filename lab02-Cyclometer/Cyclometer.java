@@ -1,6 +1,7 @@
 //Thomas Lindberg
 //9/05/2014
 //CSE2
+//lab02
 //Program should: print the number of minutes, number of counts, the distance for each trip, and the distance for two trips
 
 public class Cyclometer{
@@ -18,7 +19,7 @@ public class Cyclometer{
         feetPerMile=5280, // number of feet per mile
         inchesPerFoot=12, // number of inches per foot
         secondsPerMinute=60; // number of seconds per minute
-        double distanceTrip1, distanceTrip2, totalDistance; //
+        double distanceTrip1, distanceTrip2, totalDistance; //initializes variables
         
         System.out.println("Trip 1 took "+
             (secsTrip1/secondsPerMinute)+" minutes and had "+
@@ -36,11 +37,12 @@ public class Cyclometer{
         //the diameter in inches times PI)
         distanceTrip1/=inchesPerFoot*feetPerMile;
         //Gives distance in miles
-        distanceTrip2=countsTrip2*wheelDiamter*PI/inchesPerFoot/feetPerMile;
+        distanceTrip2=countsTrip2*wheelDiameter*PI/inchesPerFoot/feetPerMile;
+        totalDistance=distanceTrip1+distanceTrip2;
         
         System.out.println("Trip 1 was "+distanceTrip1+" miles");
         System.out.println("Trip 2 was "+distanceTrip2+" miles");
-        System.out.println("The total distance was "+totalDistance+" miles");
+        System.out.println("The total distance was " +totalDistance+" miles");
         //print out the output data
     }
     //end of main method
