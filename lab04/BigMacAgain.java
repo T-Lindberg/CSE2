@@ -3,6 +3,7 @@
 //Lab04
 //BigMacAgain
 //9/19/14
+//how you can use selection statements to run code only under specific conditions
 
 import java.util.Scanner;
 
@@ -15,14 +16,20 @@ public class BigMacAgain{
         int nBigMacs = myScanner.nextInt();
         
         if (myScanner.hasNextInt()) {
-            System.out.println (nBigMacs);
+            
         }
+        
+            if (nBigMacs > 0) {
+                double price = 2.22;
+                double cost = nBigMacs * price;
+                System.out.println ("You ordered" +nBigMacs+ "for a cost of: "+cost);
+            }
+            else {
+                System.out.println ("Number of Big Macs not greater than 0");
+            }
             
         else{
             System.out.println ("You did not enter an int");
-            return; //leaves the program
-            
-            
         }
     }
 }
