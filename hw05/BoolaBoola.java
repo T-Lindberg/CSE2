@@ -17,7 +17,7 @@ public class BoolaBoola {
         //declare scanner and random
         Scanner myScanner = new Scanner (System.in);
         Random myRandom = new Random();  
-        //delclare variables
+        //declare variables
         boolean val1 = myRandom.nextBoolean();  
         boolean val2 = myRandom.nextBoolean();  
         boolean val3 = myRandom.nextBoolean();  
