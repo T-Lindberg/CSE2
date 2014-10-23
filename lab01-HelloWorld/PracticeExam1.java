@@ -8,8 +8,15 @@ public class PracticeExam1{
     //add main method
     public static void main(String[] args) {
         
-        int num = 1/2+3*4+5%6;
-        System.out.printf(num);
+        Scanner myScanner = new Scanner (System.in);
+        
+        System.out.println ("Input: ");
+        
+        int input = myScanner.nextInt (); 
+        int n= 0;
+        for (n=input;n>=1;n--){
+            System.out.println("a");
+                        }
         
         
         
