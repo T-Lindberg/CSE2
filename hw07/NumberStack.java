@@ -62,7 +62,7 @@ public class NumberStack {
                 System.out.println ();
                 
             }
-            
+        /*    
         
         System.out.println ("Using for while loops: ");
             
@@ -148,6 +148,6 @@ public class NumberStack {
             
         
         }
-    
+        */
     }
 }
