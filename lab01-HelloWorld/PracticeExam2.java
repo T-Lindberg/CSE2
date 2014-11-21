@@ -11,24 +11,58 @@ public class PracticeExam2{
         
          
         
-        /*
-        int i = 10;
-        while (true) {
-            System.out.println ("i: " + i--);
-            if (i<0){break;}
+       /* 
+        int i = 1;
+        while (i<9) {
+            System.out.println ("i: " + i);
+            System.out.println ("looping");
+            i++;
+            i++;
             }
-            */
+           */
         
-        int i = 0;
-        for ( ; i<30; i+=5){
-            System.out.println ("Value: " + (i%4));
+        
+        /*
+        int i = 6;
+        int j = 1;
+        for (i=6; i>=0; --i){
+            for ( j= 1; j<=i; j++){
+            System.out.print (j);
+            if (j>=i){
+                System.out.println();
+            }
+            }
+            
+            
         }
+        */
         
-        
-        
-        
-        
-    
-    
+        int input = 1;
+        int i;
+        for (i = 0; i<3;i++){
+            X(input);
+            Y(input);
+            System.out.println ("input " +input);
+        }
     }
+        
+    public static void X(int i){
+        
+        i=i-2;
+        System.out.println(i);
+        
+    }
+    public static void Y(int z){
+        z=z/2;
+        System.out.println(z);
+    }   
+        
+        
+        
+        
+        
+        
+    
+    
+    
 }
